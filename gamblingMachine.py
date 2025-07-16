@@ -13,6 +13,7 @@ SCORE_THREE = int(10)
 def spin():
     return random.randint(1, 4), random.randint(1, 4), random.randint(1, 4)
 
+# score function takes a list of three values and returns a score based on the values
 def score(vals):
     # if all values are identical...
     if vals[0] == vals[1] == vals[2]:
@@ -28,6 +29,7 @@ def score(vals):
 
     return int(0)
 
+# numVals function counts how many times a specific value appears in the list
 def numVals(vals, val):
     # count how many skulls are in the spin
     return vals.count(val)  # Assuming 4 represents a skull
