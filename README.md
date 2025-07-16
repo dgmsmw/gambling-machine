@@ -1,6 +1,6 @@
 ## Gambling Machine Project
 
-This project is a simple gambling machine simulation written in Python. It was created as part of my GCSE Computer Science coursework.
+This project is a simple gambling machine simulation written in Python. It was created as part of my GCSE Computer Science work experience.
 
 ### What does it do?
 The program lets you play a virtual gambling game. You can place bets, spin the machine, and see if you win or lose. The game keeps track of your balance and gives feedback after each round.
