@@ -1,4 +1,5 @@
 # Gambling machine simulation
+import random
 
 LEMON = int(1)
 CHERRY = int(2)
@@ -10,7 +11,6 @@ SCORE_TWO = int(5)
 SCORE_THREE = int(10)
 # spin returns three values, each value is a random number between 1 and 4
 def spin():
-    import random
     return random.randint(1, 4), random.randint(1, 4), random.randint(1, 4)
 
 def score(vals):
